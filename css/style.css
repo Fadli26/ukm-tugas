@@ -1,0 +1,97 @@
+/* navbar */
+.navbar-nav a.btn {
+    margin-bottom: 5px;
+}
+
+.jumbotron {
+    height: 450px;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+}
+
+/* info */
+.info img {
+    width: 40%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-top: 80px;
+}
+
+.info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.info p {
+    font-size: 14px;
+    color: #B2B2B2;
+}
+
+/* recomended */
+.recomended h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.card-body p {
+    margin-top: 2px;
+    margin-left: 160px;
+    color: #696969;
+}
+
+.recomended .card {
+    margin: 20px auto;
+    width: 25rem !important;
+}
+
+footer .icon i {
+    margin-right: 10px;
+}
+
+
+/* Desktop version */
+@media (min-width : 992px) {
+
+    .navbar-nav a.btn {
+        margin-right: 5px;
+    }
+
+    /* jumbotron */
+    .jumbotron {
+        height: 550px;
+    }
+
+    .info {
+        margin-top: 50px;
+    }
+
+    /* recomended */
+    .recomended {
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .recomended h4 {
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 48px;
+        font-size: 24px;
+    }
+
+    .card-body p {
+        margin-top: 2px;
+        margin-left: 215px;
+        color: #696969;
+    }
+
+    .recomended .card {
+        width: 21rem !important;
+    }
+}

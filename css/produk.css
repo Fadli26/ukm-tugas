@@ -1,0 +1,54 @@
+.breadcump {
+    margin-top: 80px;
+}
+
+.produk .card {
+    margin: 10px auto;
+    width: 100% !important;
+}
+
+.card-body p {
+    margin-top: 2px;
+    margin-left: 320px;
+    color: #696969;
+}
+
+.tentang_kami {
+    padding-bottom: 20px;
+}
+
+.tentang_kami h3 {
+    margin-top: 70px;
+}
+
+.tentang_kami img {
+    width: 540px;
+}
+
+.tentang_kami p {
+    color: #888888;
+}
+
+.review {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .produk .card {
+        margin: 0;
+        width: 22rem !important;
+    }
+
+    .produk {
+        padding-bottom: 30px;
+    }
+
+    .card-body p {
+        margin-left: 230px;
+    }
+
+    .single {
+        padding-bottom: 30px;
+    }
+}
